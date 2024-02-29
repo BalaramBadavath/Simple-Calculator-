@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE CALCULATOR</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>S I M  P L E &nbsp;&nbsp;   C A L A C U L A T O R &nbsp;&nbsp;   U S I N G  &nbsp;&nbsp;  H T M L   &nbsp;&nbsp; C S S  &nbsp;&nbsp; A N D  &nbsp;&nbsp;  J A V A S C R I P T</h1>
+    </header>
+    <nav>
+        <p>HOME</p>
+        <p>ABOUT</p>
+        <p>SERVICES</p>
+        <p>CONTACT</p>
+    </nav>
+    <section>
+        <div class="body">
+            <div class="input1">
+                <input type="text" id="input1">
+            </div>
+            <div class="operator">
+                <select id="operator">
+                    <option value="+" id="add">+</option>
+                    <option value="-" id="sub">-</option>
+                    <option value="/" id="div">/</option>
+                    <option value="*" id="mul">*</option>
+                </select>
+            </div>
+            <div class="input2">
+                <input type="text" id="input2">
+            </div>
+            <div class="btn">
+                <button onclick="calculate()">CALCULATE</button>
+            </div>
+        </div>
+        <div class="result">
+            <p id="result"></p>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

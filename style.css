@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 0;
+    color: aliceblue;
+    font-family: sans-serif;
+    
+}
+nav{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(150, 144, 144);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+p{
+    font-family: "INTER" sans-serif;
+    font-weight: 800;
+}
+section{
+    height: 82vh;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    height: 20vh;
+    width: 70%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+}
+.input1{
+    height: 50px;
+    width: 15% ;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px;
+}
+input{
+    height: 40px;
+    width: 50%;
+    border-radius: 10px;
+    
+}
+.operator{
+    height: 50px;
+    width: 15%;
+    /* background-color: blueviolet; */
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input2{
+    height: 50px;
+    width: 15%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px;
+}
+.btn{
+    height: 50px;
+    width: 15%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px;
+}
+.result{
+    height: 15vh;
+    width: 40%;
+    /* background-color: violet; */
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+.result p{
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
